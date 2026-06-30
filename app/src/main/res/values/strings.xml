@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aydoğdu Nakliyat Cari</string>
+    <!--
+    ÖNEMLİ: Aşağıdaki URL'yi kendi sitenizle değiştirin.
+    API anahtarını: wp-admin > Cari & Fiş > Senkron & Mobil sayfasından kopyalayın.
+    -->
+    <string name="app_url">https://aydogdunakliyat.com/?aydogdu_cari=mobil#key=cDbpKp1pqJl1cEuouEqW6wwx4Zg0ePvFAy8x8xYS</string>
+</resources>

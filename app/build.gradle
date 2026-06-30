@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.aydogdu.cari'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.aydogdu.cari"
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release { minifyEnabled false }
+        debug { applicationIdSuffix ".debug" }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+dependencies {
+    implementation 'androidx.drawerlayout:drawerlayout:1.2.0'
+}
